@@ -12,6 +12,11 @@
        body {
          font-family: 'Caveat', cursive;
        }
+         @media(max-width: 640px) {
+             .hero-container {
+                 margin-top: 75px;
+             }
+         }
      </style>
     <title>Simple Bootstrap Website</title>
   </head>
@@ -64,8 +69,8 @@
     <section>
       <div class="container-fluid">
         <div class="row justify-content-center align-items-center" style="height: 100vh; background-color: #F4E4BA">
-          <div class="class col-sm-10 text-center">
-            <h1 class="display-2 text-capitalize"><span class="text-danger" id="title">C😶😶L RESPONSIVE</span><span class="text-light font-weight-bold"> WEBSITE</span></h1>
+          <div class="class col-sm-10 text-center hero-container">
+            <h1 class="display-4 text-capitalize"><span class="text-danger">C😶😶L RESPONSIVE</span><span class="text-light font-weight-bold"> WEBSITE</span></h1>
             <h2 class="font-weight-light font-italic text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing.</h2>
             <a href="#" class="btn btn-outline-danger btn-lg px-4 text-dark m-2"><i class="fa fa-handshake-o text-dark"></i> Get Access</a>
             <a href="#" class="btn btn-outline-success btn-lg px-4 text-dark m-2">Sign Up <i class="fa fa-user-circle text-dark"></i></a>
